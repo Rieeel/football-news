@@ -30,7 +30,7 @@ PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = True
 
 ...
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "muhammad-derriel-football-news.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "muhammad-derriel-footballnews.pbp.cs.ui.ac.id"]
 ...
 
 
