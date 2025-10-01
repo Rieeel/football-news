@@ -83,10 +83,7 @@
         modal.classList.add('hidden');
       }, 150); 
   }
-</script>
 
-<script>
-...
  async function addNewsEntry() {
     await fetch("{% url 'main:add_news_entry_ajax' %}", {
       method: "POST",
